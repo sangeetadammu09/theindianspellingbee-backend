@@ -1,0 +1,29 @@
+{
+  "name": "theindianspellingbee-be",
+  "version": "1.0.0",
+  "description": "node js code for theindianspellingbee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "sangeeta",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
+    "joi": "^17.4.0",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
